@@ -1,4 +1,14 @@
 package classes;
 
-public class List {
+import javax.swing.JPanel;
+import java.awt.*;
+
+public class List extends JPanel {
+
+    List() {
+        GridLayout layout = new GridLayout(10, 1);
+        layout.setVgap(5);
+
+        this.setLayout(layout);
+    }
 }
